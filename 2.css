@@ -1,0 +1,116 @@
+div {
+
+}
+#a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.div-style {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue; 
+}
+#special-div {
+    background-color: pink; 
+}
+       
+.custom-button {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+.custom-button:hover {
+            background-color: red; 
+        }
+
+.custom-button:active {
+            background-color: blue; 
+        }
+
+       
+.custom-input {
+            width: 100px;
+            height: 20px;
+            transition: width 0.3s ease, height 0.3s ease;
+        }
+
+.custom-input:focus {
+            width: 200px;
+            height: 40px;
+        }
+        
+        /* 复选框样式 */
+.checkbox-label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+.custom-checkbox {
+            width: 20px;
+            height: 20px;
+        }
+
+.custom-checkbox:checked {
+            width: 100px; /* 被选中的复选框宽度改为100px */
+        }
+        body {
+            font-size: 20px; /* 全文字体大小 */
+            line-height: 1.5; /* 行高 */
+            letter-spacing: 2px; /* 字体间距 */
+        }
+        
+        section{
+            width: 500px;
+            height: 500px;
+          }
+        section :nth-child(1){
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: black;
+            line-height: 50px;
+          }
+          section :nth-child(2){
+            width: 2000px;
+            height: 33px;
+            background-color: grey;
+            color: blue;
+            line-height: 16.5px;
+        }
+        section :nth-child(3){
+            width: 2000px;
+            height: 66px;
+            background-color: green;
+            color: yellow;
+            line-height: 33px;
+        }
+        p {
+            text-indent: 2em; /* 首行缩进两个字符 */
+        }
+        p.a {
+            color: blue; /* 蓝色字体 */
+            text-decoration: underline; /* 下划线 */
+        }
+        p {
+            color: black; /* 黑色字体 */
+        }
+        p.b {
+            background-color: yellow; /* 黄色背景 */
+            color: red; /* 红色字体 */
+        }
+        p.c {
+            color: red; /* 红色字体 */
+            text-decoration: line-through; /* 删除线 */
+        }
+        p.d {
+            text-align: center; /* 文本居中 */
+            font-size: 2em; /* h1 字体大小 */
+            font-weight: bold; /* h1 字体加粗 */
+            margin-top: 0.5em; /* 顶部间距 */
+            margin-bottom: 0.5em; /* 底部间距 */
+        }
